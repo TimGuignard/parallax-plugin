@@ -18,6 +18,7 @@ Define the speed : data-speed-parallax="9", if you don't, default is 2.
 -2 will make it go down
 
 
+
 ####HTML :
 ```
 <img src="assets/images/gallery-1.jpg" alt="" class="img-1 parallax" data-speed-parallax="9">
