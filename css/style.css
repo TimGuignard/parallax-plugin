@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-family: 'helvetica', 'arial'; }
+
+html {
+  height: 100%; }
+
+body, html {
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: normal;
+  text-rendering: optimizeLegibility !important;
+  width: 100%; }
+
+.main-content .marquee {
+  background: #7be7d7;
+  background: -moz-linear-gradient(45deg, #7be7d7 0%, #86a5e3 100%);
+  background: -webkit-linear-gradient(45deg, #7be7d7 0%, #86a5e3 100%);
+  background: linear-gradient(45deg, #7be7d7 0%, #86a5e3 100%);
+  height: 600px;
+  margin: 0 100px;
+  position: relative; }
+  @media screen and (max-width: 768px) {
+    .main-content .marquee {
+      margin: 0 20px;
+      height: 400px; } }
+  .main-content .marquee .title {
+    position: absolute;
+    margin: 225px auto 0 auto;
+    width: 650px;
+    left: 0;
+    right: 0; }
+    @media screen and (max-width: 768px) {
+      .main-content .marquee .title {
+        margin: 100px auto 0 auto;
+        width: 100%;
+        padding: 20px; } }
+    .main-content .marquee .title h1 {
+      color: #fff;
+      font-size: 60px;
+      letter-spacing: 5px;
+      text-transform: uppercase; }
+      @media screen and (max-width: 768px) {
+        .main-content .marquee .title h1 {
+          font-size: 30px; } }
+    .main-content .marquee .title a {
+      color: #fff;
+      font-size: 25px;
+      margin-top: 10px;
+      font-weight: bold; }
+      @media screen and (max-width: 768px) {
+        .main-content .marquee .title a {
+          font-size: 20px; } }
+.main-content .section-01 {
+  padding: 0 100px;
+  position: relative;
+  top: -50px;
+  z-index: 100; }
+  @media screen and (max-width: 768px) {
+    .main-content .section-01 {
+      padding: 0 20px; } }
+  .main-content .section-01 .floating-block {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 40%;
+    position: relative;
+    text-decoration: none;
+    width: calc(40% -  4px); }
+    .main-content .section-01 .floating-block.left {
+      top: 0px; }
+    .main-content .section-01 .floating-block.right {
+      top: 200px; }
+    .main-content .section-01 .floating-block span {
+      display: block;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 60px;
+      position: absolute; }
+      @media screen and (max-width: 768px) {
+        .main-content .section-01 .floating-block span {
+          font-size: 20px;
+          line-height: 1.1; } }
+      .main-content .section-01 .floating-block span.top {
+        left: 12%;
+        top: 10%; }
+      .main-content .section-01 .floating-block span.bottom {
+        left: 12%;
+        bottom: 10%; }
+.main-content .section-02, .main-content .section-04 {
+  background: #7be7d7;
+  background: -moz-linear-gradient(45deg, #7be7d7 0%, #86a5e3 100%);
+  background: -webkit-linear-gradient(45deg, #7be7d7 0%, #86a5e3 100%);
+  background: linear-gradient(45deg, #7be7d7 0%, #86a5e3 100%);
+  height: 300px;
+  margin: 100px;
+  position: relative; }
+.main-content .gallery-pictures {
+  margin: -180px 60px 0px 60px;
+  position: relative;
+  z-index: 100; }
+  .main-content .gallery-pictures img {
+    width: 27%;
+    display: inline-block;
+    position: relative; }
+    .main-content .gallery-pictures img.img-1 {
+      top: 0px;
+      z-index: 4; }
+    .main-content .gallery-pictures img.img-2 {
+      margin-right: calc(-1% - 4px);
+      margin-left: calc(-3% - 4px);
+      top: 0px;
+      z-index: 3; }
+    .main-content .gallery-pictures img.img-3 {
+      margin-right: calc(-3% - 4px);
+      margin-left: calc(-1% - 4px);
+      top: 0px;
+      z-index: 2; }
+    .main-content .gallery-pictures img.img-4 {
+      top: 0px;
+      z-index: 1; }

@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Timothee Guignard - Parallax plugin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/vendor/animation.css"> 
+    <link rel="stylesheet" href="css/vendor/delayAnim.css"> 
+
+     <!-- script -->
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        <section class="marquee">
+            <div class="title">
+                <h1>parallax plugin</h1>
+                <a href="http://timguignard.com">By Timothée Guignard</a>
+            </div>
+            
+        </section>
+
+        <section class="section-01">
+            <div class="floating-block left parallax-noSnap" style="background-image: url(assets/images/intro-img.jpg);" data-speed-parallax="3">
+                <span class="text top">no<br>Snap<br>Effect</span>
+            </div>
+            <div class="floating-block right parallax-intro" style="background-image: url(assets/images/intro-img2.jpg);" data-speed-parallax="1.5">
+                <span class="text bottom">Snap<br>Effect</span>
+            </div>
+        </section>
+
+        <section class="section-02"></section>
+
+
+        <section class="gallery-pictures">
+            <img src="assets/images/gallery-1.jpg" alt="" class="img-1 parallax-noSnap" data-speed-parallax="-2.3">
+            <img src="assets/images/gallery-2.jpg" alt="" class="img-2 parallax delay-5" data-speed-parallax="3">
+            <img src="assets/images/gallery-3.jpg" alt="" class="img-3 parallax-noSnap delay-3" data-speed-parallax="-6">
+            <img src="assets/images/gallery-4.jpg" alt="" class="img-4 parallax delay-7" data-speed-parallax="1.5">
+        </section>
+
+         <section class="section-04"></section>
+    </div>
+
+  
+    <!-- ********** script ********** -->
+    <script src="js/main.js"></script>
+
+    <!-- plugin SGC -->
+    <script src="js/timguignard.parallax/timguignard.parallax-min.js"></script>
+
+</body>
+</html>
