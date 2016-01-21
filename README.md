@@ -4,8 +4,9 @@ An awesome parallax plugin. Easy to use!
 
 ##How to use :
 First: import the plugin:
+```
 <script src="js/timguignard.parallax/timguignard.parallax-min.js"></script>
-
+```
 
 The plugin can be used on every element (img, div...)
 
