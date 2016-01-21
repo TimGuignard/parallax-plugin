@@ -1,6 +1,8 @@
 # parallax-plugin
 An awesome parallax plugin. Easy to use!
 
+##demo
+http://timguignard.com/lab/timguignard-parallax-plugin/
 
 ##How to use :
 First: import the plugin:
